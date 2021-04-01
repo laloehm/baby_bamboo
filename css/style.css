@@ -13,12 +13,15 @@
     padding: 0;
     box-sizing: border-box;
     color: #009eff;
-    font-family: 'Max-Medium', serif;
+    font-family: "Max-Medium", serif;
+}
+.row {
+    margin: 0;
 }
 
 .title {
-    color: #0015ac;
-    font-family: 'Max-Bold';
+    color: #454755;
+    font-family: "Max-Bold";
     font-size: 50px;
     max-width: 1140px;
     margin: 0 auto;
@@ -33,6 +36,9 @@
 .text_green {
     color: #64bf00;
 }
+.navbar {
+    margin: 0;
+}
 
 .navbar-brand {
     width: 200px;
@@ -41,6 +47,21 @@
 .nav-item .nav-link {
     color: #40b6ff !important;
 }
+.nav-item .nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #0015ac;
+}
 
 .nav-pills .nav-link.active {
     background: transparent;
@@ -48,7 +69,7 @@
 }
 
 .nav-pills .nav-link.active::after {
-    content: '';
+    content: "";
     display: block;
     height: 3px;
     width: 25px;
@@ -65,7 +86,7 @@ body {
 }
 
 .home h2 {
-    font-family: 'Max-Bold';
+    font-family: "Max-Bold";
     font-size: 50px;
     line-height: 45px;
     color: #0015ac;
@@ -73,6 +94,22 @@ body {
 
 .home .carousel .carousel-item {
     height: 400px;
+}
+.carousel-indicators {
+    width: 50%;
+    margin: 0;
+}
+
+.home .carousel-indicators li {
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #0088ff;
+    opacity: 0.9;
+}
+.home .carousel-indicators li.active {
+    background: #0015ac;
 }
 
 .home .col-md-6 img {
