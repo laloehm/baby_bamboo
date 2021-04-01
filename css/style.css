@@ -378,3 +378,32 @@ footer a {
     margin: 0 8px;
     text-align: center;
 }
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        width: 140px;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        position: absolute;
+        right: calc(-15% + 20px);
+        width: 25px;
+        height: 25px;
+        bottom: 45%;
+    }
+    .owl-carousel .owl-nav button.owl-next span {
+        width: 25px;
+        height: 25px;
+    }
+    .about img.bamboo_circle {
+        width: 160px;
+        margin: 25px auto;
+    }
+
+    .contact .box .border-radius {
+        width: 100%;
+        height: auto;
+    }
+    footer {
+        font-size: 14px;
+    }
+}
