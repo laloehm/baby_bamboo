@@ -17,7 +17,7 @@
 
 <body data-spy="scroll" data-target="#menu">
     <header class="">
-        <nav class="navbar navbar-expand-lg navbar-light py-3 px-5 fixed-top" id="menu">
+        <nav class="navbar navbar-expand-lg navbar-light py-3 px-3 px-md-5 fixed-top" id="menu">
             <a class="navbar-brand" href="#"><img src="images/Logo_Baby.svg" class="img-fluid" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,10 +42,10 @@
         </nav>
     </header>
     <section class="home d-flex align-items-center justify-cotent-start">
-        <img src="images/Home/Mouse.svg" class="img-fluid mouse" alt="">
+        <img src="images/Home/Mouse.svg" class="img-fluid mouse d-none d-md-block" alt="">
         <div class="container">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
+                <ol class="carousel-indicators d-none d-md-flex">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -91,9 +91,12 @@
                             </div>
                             <div class="col-md-5 d-flex flex-column justify-content-center align-items-start">
                                 <h2>Muselinas de bambú</h2>
-                                <p>Muselinas (mantas) ideales para tu bebé, 70% fibra de bambú 30% algodón. <br>
-                                    La muselina de bambú, es elaborada con un material que además de ser completamente natural, también tiene características antibacteriales e hipoalergénicas. Es más suave que el algodón y muy ligero, siendo así la opción perfecta para cuando se busca frescura y comodidad en los días de calor, protección en los días de frío y flexibilidad el resto del año. <br>
-                                    Medidas: 120 x 120 cm</p>
+                                <p>Muselinas (mantas) ideales para tu bebé, 70% fibra de bambú 30% algodón. </p>
+                                <p class="d-none d-md-block">La muselina de bambú, es elaborada con un material que además de ser completamente natural, también tiene características antibacteriales e hipoalergénicas.
+                                    Es más suave que el algodón y muy ligero, siendo así la opción perfecta para cuando se busca frescura y comodidad en los días de calor, protección en los días de frío y flexibilidad
+                                    el resto del año. <br>
+                                    Medidas: 120 x 120 cm
+                                </p>
                                 <div class="box_botones d-flex">
                                     <a href=""><img src="images/Home/Amazon.svg" class="img-fluid" alt=""></a>
                                     <a href=""><img src="images/Home/Mercado_Libre.svg" class="img-fluid ml-3" alt=""></a>
@@ -146,7 +149,7 @@
     </section>
 
     <section class="about py-5" id="nosotros">
-        <h2 class="title">Nosotros</h2>
+        <h2 class="title px-3 px-md-none">Nosotros</h2>
         <div class="box_carousel my-5">
             <div class="owl-carousel owl-theme">
                 <div class="item">

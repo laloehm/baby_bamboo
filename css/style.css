@@ -20,7 +20,7 @@
 }
 
 .title {
-    color: #454755;
+    color: #0015ac;
     font-family: "Max-Bold";
     font-size: 50px;
     max-width: 1140px;
@@ -382,6 +382,19 @@ footer a {
 @media (max-width: 767px) {
     .navbar-brand {
         width: 140px;
+    }
+    .home {
+        height: 110vh;
+    }
+    .home h2 {
+        font-size: 32px;
+        line-height: 30px;
+    }
+    .home .carousel .carousel-item {
+        height: auto;
+    }
+    .home img.mancha {
+        width: 70%;
     }
     .owl-carousel .owl-nav button.owl-next {
         position: absolute;
