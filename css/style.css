@@ -165,7 +165,7 @@ body {
 }
 
 .home .carousel .carousel-item {
-    height: 400px;
+    height: 450px;
 }
 .carousel-indicators {
     width: 50%;
@@ -186,7 +186,7 @@ body {
 }
 
 .home .col-md-6 img {
-    width: 92%;
+    width: 100%;
 }
 
 .home img.mancha {
