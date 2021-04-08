@@ -272,6 +272,10 @@ body {
     display: block;
 }
 
+.owl-carousel .owl-nav button.owl-prev span {
+    display: none;
+}
+
 .box_carousel img.arrow {
     width: 40px;
     position: absolute;
@@ -494,7 +498,11 @@ footer a {
         width: 140px;
     }
     .home {
-        height: 110vh;
+        height: 115vh;
+    }
+    .home .redes {
+        bottom: 0;
+        right: 10px;
     }
     .home h2 {
         font-size: 32px;
@@ -523,6 +531,9 @@ footer a {
     .about img.bamboo_circle {
         width: 160px;
         margin: 25px auto;
+    }
+    .faqs iframe {
+        height: 200px;
     }
 
     .contact .box .border-radius {
