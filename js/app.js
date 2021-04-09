@@ -21,6 +21,7 @@ $(".owl-carousel").owlCarousel({
         },
     },
 });
+
 /* Smooth scrolling para anclas */
 $("a.smooth").on("click", function (e) {
     e.preventDefault();
